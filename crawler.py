@@ -8,6 +8,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
 # ── 설정 ──────────────────────────────────────────────────────────────────────
@@ -89,89 +90,48 @@ def extract_domain(url: str) -> str:
     url = normalize_url(url)
     return url.split("/")[0]
 
-# ── AI Overview URL 파싱 ───────────────────────────────────────────────────────
-async def parse_ai_overview(page) -> tuple[bool, list[str]]:
+# ── raw HTML 파싱 ──────────────────────────────────────────────────────────────
+def parse_html(html: str) -> tuple[bool, list[str], list[str]]:
     """
-    AI 개요(AI Overview) 박스에서 인용 URL 추출.
-    구글이 HTML 구조를 바꿔도 여러 셀렉터를 순차 시도.
+    JS 렌더링된 DOM HTML에서 AI 개요 URL과 SEO 상위 10개 URL을 한 번에 추출.
     """
-    selectors = [
-        # 2024-2025 확인된 셀렉터들
-        "div[data-attrid='SGEOverview'] a[href]",
-        "div[jsname='yEVEwb'] a[href]",
-        "div[data-content-feature='1'] a[href]",
-        "div[class*='ai-overview'] a[href]",
-        "div[id*='aiOverview'] a[href]",
-        # 한국어 AI 개요
-        "div[aria-label*='AI 개요'] a[href]",
-        "div[aria-label*='개요'] a[href]",
-        # 범용 fallback
-        "div[jscontroller] div[role='region'] a[href]",
-    ]
+    soup = BeautifulSoup(html, "html.parser")
 
-    urls = []
-    for sel in selectors:
-        try:
-            elements = await page.query_selector_all(sel)
-            for el in elements:
-                href = await el.get_attribute("href")
-                if href and href.startswith("http") and "google.com" not in href:
-                    urls.append(href)
-            if urls:
-                break
-        except Exception:
-            continue
+    # ── AI 개요 ──
+    ai_urls = []
+    ai_container = soup.find(attrs={"data-attrid": "SrpGenSumSummary"})
+    if ai_container:
+        for a in ai_container.find_all("a", href=True):
+            href = a["href"]
+            if href.startswith("http") and "google.com" not in href:
+                ai_urls.append(href)
 
-    # 중복 제거, 정규화
     seen = set()
-    unique = []
-    for u in urls:
+    unique_ai = []
+    for u in ai_urls:
         n = normalize_url(u)
         if n not in seen:
             seen.add(n)
-            unique.append(u)
+            unique_ai.append(u)
 
-    return (len(unique) > 0, unique)
+    # ── SEO 상위 10개 ──
+    seo_urls = []
+    for a in soup.select('div.yuRUbf a[jsname="UWckNb"]'):
+        href = a.get("href", "")
+        if href.startswith("http") and "google.com" not in href and "youtube.com" not in href:
+            seo_urls.append(href)
 
-# ── SEO 상위 10개 URL 파싱 ────────────────────────────────────────────────────
-async def parse_seo_results(page) -> list[str]:
-    """
-    일반 오가닉 검색결과 상위 10개 URL 추출.
-    """
-    selectors = [
-        "div#search div.g a[href]",
-        "div#rso div.g a[href]",
-        "div[data-sokoban-container] a[data-ved][href]",
-        "div.yuRUbf a[href]",
-    ]
-
-    urls = []
-    for sel in selectors:
-        try:
-            elements = await page.query_selector_all(sel)
-            for el in elements:
-                href = await el.get_attribute("href")
-                if (href and href.startswith("http")
-                        and "google.com" not in href
-                        and "youtube.com" not in href):
-                    urls.append(href)
-            if urls:
-                break
-        except Exception:
-            continue
-
-    # 중복 제거 후 상위 10개
     seen = set()
-    unique = []
-    for u in urls:
+    unique_seo = []
+    for u in seo_urls:
         n = normalize_url(u)
         if n not in seen:
             seen.add(n)
-            unique.append(u)
-        if len(unique) >= 10:
+            unique_seo.append(u)
+        if len(unique_seo) >= 10:
             break
 
-    return unique
+    return (len(unique_ai) > 0, unique_ai, unique_seo)
 
 # ── 인간처럼 마우스 움직이기 ──────────────────────────────────────────────────
 async def human_mouse_move(page):
@@ -197,34 +157,23 @@ async def process_query(page, query_row: dict) -> dict:
     query    = query_row["query"]
     category = query_row["category"]
 
-    url = GOOGLE_SEARCH.format(query=query)
+    search_url = GOOGLE_SEARCH.format(query=query)
     print(f"  [{qid}] 검색: {query}")
 
     try:
-        await page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+        await page.goto(search_url, wait_until="domcontentloaded", timeout=30_000)
     except Exception as e:
         print(f"  [{qid}] goto 실패: {e}")
         return _empty_row(qid, query, category)
 
-    # 페이지 로드 후 짧게 대기 (랜덤)
-    await asyncio.sleep(random.uniform(2.5, 5.5))
-
-    # 인간 행동 시뮬레이션
+    # JS 렌더링 대기
+    await asyncio.sleep(random.uniform(2.0, 4.0))
     await human_mouse_move(page)
     await human_scroll(page)
-    await asyncio.sleep(random.uniform(1.0, 3.0))
+    await asyncio.sleep(random.uniform(1.0, 2.0))
 
-    # AI Overview 확장 버튼이 있으면 클릭
-    try:
-        more_btn = await page.query_selector("div[jsname='yEVEwb'] button, button[aria-label*='더보기']")
-        if more_btn:
-            await more_btn.click()
-            await asyncio.sleep(random.uniform(1.0, 2.0))
-    except Exception:
-        pass
-
-    has_ai, ai_urls  = await parse_ai_overview(page)
-    seo_urls         = await parse_seo_results(page)
+    dom_html = await page.content()
+    has_ai, ai_urls, seo_urls = parse_html(dom_html)
 
     # 겹침 계산 (도메인 레벨)
     ai_domains  = {extract_domain(u) for u in ai_urls}
