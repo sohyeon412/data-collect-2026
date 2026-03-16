@@ -1,0 +1,91 @@
+name: AI Overview Crawler
+
+on:
+  schedule:
+    # 매일 UTC 00:00 (한국 09:00) 실행 — 원하는 시간으로 바꾸세요
+    - cron: "0 0 * * *"
+  workflow_dispatch:   # 수동 실행 버튼도 활성화
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350   # 깃액션 최대 6시간, 넉넉하게 5시간 50분
+
+    steps:
+      # ── 1. 코드 체크아웃 ──────────────────────────────────────────────────
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # ── 2. 이전 결과 파일 복원 (캐시) ────────────────────────────────────
+      - name: Restore results cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            results.csv
+            progress.json
+          key: crawler-results-${{ github.run_number }}
+          restore-keys: |
+            crawler-results-
+
+      # ── 3. Python 세팅 ────────────────────────────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # ── 4. 의존성 설치 ────────────────────────────────────────────────────
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
+      # ── 5. 쿼리 CSV 확인 ─────────────────────────────────────────────────
+      - name: Check queries CSV
+        run: |
+          ls -la
+          python3 -c "
+          import csv
+          with open('queries_500.csv', 'r') as f:
+              rows = list(csv.DictReader(f))
+          print(f'쿼리 수: {len(rows)}개')
+          "
+
+      # ── 6. 크롤러 실행 ────────────────────────────────────────────────────
+      - name: Run crawler
+        run: python3 crawler.py
+
+      # ── 7. 결과 커밋 & 푸시 ──────────────────────────────────────────────
+      - name: Commit results
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add results.csv progress.json || true
+          git diff --staged --quiet || git commit -m "chore: crawler results $(date +'%Y-%m-%d %H:%M')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 8. 요약 출력 ──────────────────────────────────────────────────────
+      - name: Print summary
+        run: |
+          python3 -c "
+          import csv
+          from pathlib import Path
+
+          if not Path('results.csv').exists():
+              print('결과 없음')
+              exit()
+
+          with open('results.csv', 'r') as f:
+              rows = list(csv.DictReader(f))
+
+          total     = len(rows)
+          has_ai    = sum(1 for r in rows if r['has_ai_overview'] == 'True')
+          overlaps  = [float(r['overlap_ratio']) for r in rows if r['overlap_ratio']]
+          avg_ratio = sum(overlaps)/len(overlaps) if overlaps else 0
+
+          print(f'총 수집: {total}개')
+          print(f'AI Overview 있음: {has_ai}개 ({has_ai/total*100:.1f}%)')
+          print(f'평균 겹침 비율: {avg_ratio:.3f}')
+          "
