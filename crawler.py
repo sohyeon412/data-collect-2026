@@ -254,10 +254,16 @@ async def main():
             done_ids.add(query_row["id"])
             save_progress(done_ids)
 
+            ai_cnt  = len(result['ai_overview_urls'].split('|')) if result['ai_overview_urls'] else 0
+            seo_cnt = len(result['seo_top10_urls'].split('|')) if result['seo_top10_urls'] else 0
             print(f"  → AI Overview: {result['has_ai_overview']} | "
-                  f"AI URLs: {len(result['ai_overview_urls'].split('|')) if result['ai_overview_urls'] else 0} | "
-                  f"SEO URLs: {len(result['seo_top10_urls'].split('|')) if result['seo_top10_urls'] else 0} | "
-                  f"겹침: {result['overlap_count']}")
+                  f"AI URLs: {ai_cnt} | SEO URLs: {seo_cnt} | 겹침: {result['overlap_count']}")
+            if result['has_ai_overview'] and ai_cnt > 0:
+                for u in result['ai_overview_urls'].split('|')[:3]:
+                    print(f"     AI  {u[:70]}")
+            if seo_cnt > 0:
+                for u in result['seo_top10_urls'].split('|')[:3]:
+                    print(f"     SEO {u[:70]}")
 
             # 마지막 쿼리가 아니면 랜덤 대기
             if i < len(todo) - 1:

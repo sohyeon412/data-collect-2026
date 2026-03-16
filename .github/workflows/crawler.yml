@@ -36,7 +36,7 @@ jobs:
       # ── 4. 의존성 설치 ────────────────────────────────────────────────────
       - name: Install dependencies
         run: |
-          pip install playwright
+          pip install -r requirements.txt
           playwright install chromium
           playwright install-deps chromium
 
@@ -70,8 +70,9 @@ jobs:
       - name: Print summary
         run: |
           python3 -c "
-          import csv
+          import csv, json
           from pathlib import Path
+          from datetime import datetime, timezone, timedelta
 
           if not Path('results.csv').exists():
               print('결과 없음')
@@ -80,12 +81,34 @@ jobs:
           with open('results.csv', 'r') as f:
               rows = list(csv.DictReader(f))
 
-          total     = len(rows)
-          has_ai    = sum(1 for r in rows if r['has_ai_overview'] == 'True')
-          overlaps  = [float(r['overlap_ratio']) for r in rows if r['overlap_ratio']]
+          # 오늘 실행분만 필터 (UTC 기준 오늘)
+          today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+          today_rows = [r for r in rows if r.get('crawled_at','').startswith(today)]
+
+          total    = len(rows)
+          has_ai   = sum(1 for r in rows if r['has_ai_overview'] == 'True')
+          overlaps = [float(r['overlap_ratio']) for r in rows if r['overlap_ratio']]
           avg_ratio = sum(overlaps)/len(overlaps) if overlaps else 0
 
-          print(f'총 수집: {total}개')
-          print(f'AI Overview 있음: {has_ai}개 ({has_ai/total*100:.1f}%)')
-          print(f'평균 겹침 비율: {avg_ratio:.3f}')
+          print('='*50)
+          print(f'[전체 누적]')
+          print(f'  수집 완료: {total} / 504개')
+          print(f'  AI Overview 있음: {has_ai}개 ({has_ai/total*100:.1f}%)')
+          print(f'  평균 겹침 비율: {avg_ratio:.3f}')
+          print(f'[오늘 실행분] ({today})')
+          if today_rows:
+              t_ai = sum(1 for r in today_rows if r['has_ai_overview'] == 'True')
+              print(f'  수집: {len(today_rows)}개')
+              print(f'  AI Overview: {t_ai}개 ({t_ai/len(today_rows)*100:.1f}%)')
+              # AI Overview 없는 쿼리 샘플
+              no_ai = [r['query'] for r in today_rows if r['has_ai_overview'] != 'True'][:5]
+              if no_ai:
+                  print(f'  AI Overview 없던 쿼리 예시: {no_ai}')
+          else:
+              print('  오늘 수집된 데이터 없음')
+
+          if Path('progress.json').exists():
+              prog = json.load(open('progress.json'))
+              print(f'[진행상황] 완료된 쿼리 ID 수: {len(prog[\"done\"])}개')
+          print('='*50)
           "
