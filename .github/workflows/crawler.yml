@@ -53,7 +53,7 @@ jobs:
 
       # ── 6. 크롤러 실행 ────────────────────────────────────────────────────
       - name: Run crawler
-        run: python3 -u crawler.py
+        run: xvfb-run python3 -u crawler.py
 
       # ── 7. 결과 커밋 & 푸시 ──────────────────────────────────────────────
       - name: Commit results
