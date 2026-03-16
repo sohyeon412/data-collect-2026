@@ -218,12 +218,13 @@ async def main():
         viewport = random.choice(VIEWPORTS)
 
         browser = await pw.chromium.launch(
-            headless=True,
+            headless=False,
             args=[
                 "--no-sandbox",
                 "--disable-blink-features=AutomationControlled",
                 "--disable-dev-shm-usage",
                 f"--window-size={viewport['width']},{viewport['height']}",
+                "--window-position=-10000,0",
             ],
         )
 
@@ -237,14 +238,6 @@ async def main():
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             },
         )
-
-        # 봇 감지 우회: navigator.webdriver 숨기기
-        await context.add_init_script("""
-            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-            Object.defineProperty(navigator, 'plugins', { get: () => [1,2,3] });
-            Object.defineProperty(navigator, 'languages', { get: () => ['ko-KR','ko','en-US'] });
-            window.chrome = { runtime: {} };
-        """)
 
         page = await context.new_page()
 
