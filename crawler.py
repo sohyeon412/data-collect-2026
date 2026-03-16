@@ -152,7 +152,7 @@ async def human_scroll(page):
         await asyncio.sleep(random.uniform(*DELAY_BETWEEN_SCROLL))
 
 # ── 쿼리 1개 처리 ─────────────────────────────────────────────────────────────
-async def process_query(page, query_row: dict) -> dict:
+async def process_query(page, query_row: dict, first_id: str = None) -> dict:
     qid      = query_row["id"]
     query    = query_row["query"]
     category = query_row["category"]
@@ -173,6 +173,15 @@ async def process_query(page, query_row: dict) -> dict:
     await asyncio.sleep(random.uniform(1.0, 2.0))
 
     dom_html = await page.content()
+
+    # 첫 쿼리에서 HTML 샘플 출력 (봇 감지 여부 확인용)
+    if qid == first_id:
+        snippet = dom_html[:2000].replace('\n', ' ')
+        print(f"  [HTML 샘플] {snippet[:500]}")
+        has_captcha = any(x in dom_html for x in ["captcha", "CAPTCHA", "unusual traffic", "recaptcha", "/sorry/"])
+        print(f"  [CAPTCHA 감지]: {has_captcha}")
+        print(f"  [HTML 길이]: {len(dom_html)} chars")
+
     has_ai, ai_urls, seo_urls = parse_html(dom_html)
 
     # 겹침 계산 (도메인 레벨)
@@ -249,7 +258,8 @@ async def main():
         page = await context.new_page()
 
         for i, query_row in enumerate(todo):
-            result = await process_query(page, query_row)
+            first_id = todo[0]["id"] if todo else None
+            result = await process_query(page, query_row, first_id=first_id)
             append_result(result)
             done_ids.add(query_row["id"])
             save_progress(done_ids)
