@@ -17,7 +17,7 @@ OUTPUT_CSV    = "results.csv"
 PROGRESS_JSON = "progress.json"          # 재시작용 체크포인트
 
 # 딜레이 범위 (초) ― 깃액션에서 여러 날 돌릴 때 봇 감지 회피
-DELAY_BETWEEN_QUERIES = (18, 45)         # 쿼리 사이
+DELAY_BETWEEN_QUERIES = (10, 20)         # 쿼리 사이
 DELAY_BETWEEN_SCROLL  = (1.2, 3.5)      # 스크롤 사이
 DELAY_TYPING          = (60, 160)        # 타이핑 딜레이 (ms)
 
