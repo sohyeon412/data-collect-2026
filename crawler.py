@@ -63,8 +63,9 @@ def load_queries() -> list[dict]:
 FIELDNAMES = [
     "id", "query", "category",
     "has_ai_overview",
+    "ai_overview_text",          # AI 개요 본문 텍스트
     "ai_overview_urls",          # | 구분 문자열
-    "seo_top10_urls",            # | 구분 문자열
+    "seo_urls",                  # | 구분 문자열 (전체)
     "overlap_count",             # 겹치는 URL 수
     "overlap_ratio",             # 겹치는 비율 (ai_urls 기준)
     "crawled_at",
@@ -91,17 +92,25 @@ def extract_domain(url: str) -> str:
     return url.split("/")[0]
 
 # ── raw HTML 파싱 ──────────────────────────────────────────────────────────────
-def parse_html(html: str) -> tuple[bool, list[str], list[str]]:
+def parse_html(html: str) -> tuple[bool, str, list[str], list[str]]:
     """
-    JS 렌더링된 DOM HTML에서 AI 개요 URL과 SEO 상위 10개 URL을 한 번에 추출.
+    JS 렌더링된 DOM HTML에서 AI 개요 텍스트/URL과 SEO 전체 URL을 한 번에 추출.
     """
     soup = BeautifulSoup(html, "html.parser")
 
     # ── AI 개요 ──
+    ai_text = ""
     ai_urls = []
     ai_container = soup.find(attrs={"data-attrid": "SrpGenSumSummary"})
     if ai_container:
-        for a in ai_container.find_all("a", href=True):
+        # 텍스트 추출 (링크 태그 제외하고 본문만)
+        for a in ai_container.find_all("a"):
+            a.decompose()
+        ai_text = " ".join(ai_container.get_text(" ", strip=True).split())
+
+        # URL 추출 (decompose 전에 다시 파싱)
+        ai_container2 = BeautifulSoup(html, "html.parser").find(attrs={"data-attrid": "SrpGenSumSummary"})
+        for a in ai_container2.find_all("a", href=True):
             href = a["href"]
             if href.startswith("http") and "google.com" not in href:
                 ai_urls.append(href)
@@ -114,11 +123,11 @@ def parse_html(html: str) -> tuple[bool, list[str], list[str]]:
             seen.add(n)
             unique_ai.append(u)
 
-    # ── SEO 상위 10개 ──
+    # ── SEO 전체 ──
     seo_urls = []
     for a in soup.select('div.yuRUbf a[jsname="UWckNb"]'):
         href = a.get("href", "")
-        if href.startswith("http") and "google.com" not in href and "youtube.com" not in href:
+        if href.startswith("http") and "google.com" not in href:
             seo_urls.append(href)
 
     seen = set()
@@ -128,10 +137,8 @@ def parse_html(html: str) -> tuple[bool, list[str], list[str]]:
         if n not in seen:
             seen.add(n)
             unique_seo.append(u)
-        if len(unique_seo) >= 10:
-            break
 
-    return (len(unique_ai) > 0, unique_ai, unique_seo)
+    return (len(unique_ai) > 0, ai_text, unique_ai, unique_seo)
 
 # ── 인간처럼 마우스 움직이기 ──────────────────────────────────────────────────
 async def human_mouse_move(page):
@@ -173,7 +180,7 @@ async def process_query(page, query_row: dict) -> dict:
     await asyncio.sleep(random.uniform(1.0, 2.0))
 
     dom_html = await page.content()
-    has_ai, ai_urls, seo_urls = parse_html(dom_html)
+    has_ai, ai_text, ai_urls, seo_urls = parse_html(dom_html)
 
     # 겹침 계산 (도메인 레벨)
     ai_domains  = {extract_domain(u) for u in ai_urls}
@@ -183,23 +190,25 @@ async def process_query(page, query_row: dict) -> dict:
     overlap_rat = round(overlap_cnt / len(ai_domains), 4) if ai_domains else 0.0
 
     return {
-        "id":               qid,
-        "query":            query,
-        "category":         category,
-        "has_ai_overview":  has_ai,
-        "ai_overview_urls": "|".join(ai_urls),
-        "seo_top10_urls":   "|".join(seo_urls),
-        "overlap_count":    overlap_cnt,
-        "overlap_ratio":    overlap_rat,
-        "crawled_at":       datetime.now().isoformat(),
+        "id":                qid,
+        "query":             query,
+        "category":          category,
+        "has_ai_overview":   has_ai,
+        "ai_overview_text":  ai_text,
+        "ai_overview_urls":  "|".join(ai_urls),
+        "seo_urls":          "|".join(seo_urls),
+        "overlap_count":     overlap_cnt,
+        "overlap_ratio":     overlap_rat,
+        "crawled_at":        datetime.now().isoformat(),
     }
 
 def _empty_row(qid, query, category) -> dict:
     return {
         "id": qid, "query": query, "category": category,
-        "has_ai_overview": False, "ai_overview_urls": "",
-        "seo_top10_urls": "", "overlap_count": 0,
-        "overlap_ratio": 0.0, "crawled_at": datetime.now().isoformat(),
+        "has_ai_overview": False, "ai_overview_text": "",
+        "ai_overview_urls": "", "seo_urls": "",
+        "overlap_count": 0, "overlap_ratio": 0.0,
+        "crawled_at": datetime.now().isoformat(),
     }
 
 # ── 메인 ──────────────────────────────────────────────────────────────────────
@@ -248,15 +257,11 @@ async def main():
             save_progress(done_ids)
 
             ai_cnt  = len(result['ai_overview_urls'].split('|')) if result['ai_overview_urls'] else 0
-            seo_cnt = len(result['seo_top10_urls'].split('|')) if result['seo_top10_urls'] else 0
+            seo_cnt = len(result['seo_urls'].split('|')) if result['seo_urls'] else 0
             print(f"  → AI Overview: {result['has_ai_overview']} | "
                   f"AI URLs: {ai_cnt} | SEO URLs: {seo_cnt} | 겹침: {result['overlap_count']}")
-            if result['has_ai_overview'] and ai_cnt > 0:
-                for u in result['ai_overview_urls'].split('|')[:3]:
-                    print(f"     AI  {u[:70]}")
-            if seo_cnt > 0:
-                for u in result['seo_top10_urls'].split('|')[:3]:
-                    print(f"     SEO {u[:70]}")
+            if result['ai_overview_text']:
+                print(f"     텍스트: {result['ai_overview_text'][:100]}")
 
             # 마지막 쿼리가 아니면 랜덤 대기
             if i < len(todo) - 1:
