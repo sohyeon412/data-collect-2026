@@ -261,7 +261,13 @@ async def main():
             print(f"  → AI Overview: {result['has_ai_overview']} | "
                   f"AI URLs: {ai_cnt} | SEO URLs: {seo_cnt} | 겹침: {result['overlap_count']}")
             if result['ai_overview_text']:
-                print(f"     텍스트: {result['ai_overview_text'][:100]}")
+                print(f"  [AI 답변] {result['ai_overview_text'][:150]}")
+            if result['ai_overview_urls']:
+                for u in result['ai_overview_urls'].split('|'):
+                    print(f"  [AI] {u[:90]}")
+            if result['seo_urls']:
+                for u in result['seo_urls'].split('|'):
+                    print(f"  [SEO] {u[:90]}")
 
             # 마지막 쿼리가 아니면 랜덤 대기
             if i < len(todo) - 1:
