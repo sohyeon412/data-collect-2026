@@ -1,0 +1,505 @@
+﻿id,query,category,has_ai_overview,ai_overview_text,ai_overview_urls,seo_urls,overlap_count,overlap_ratio,crawled_at
+1,당뇨병이란 무엇인가?,정의형,False,관련 링크,,https://www.diabetes.or.kr/general/info/info_01.php|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5305|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000260|https://www.nhis.or.kr/magazin/141/html/c02.html|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31596|https://sbhosp.seoul.go.kr/archives/583|https://diabeteseducation.novocare.com/content/dam/diabetes-patient/novocare-diabeteseducation/pdfs/Korean/factsheet_What_Is_Diabetes_KOREAN.pdf|http://www.samsunghospital.com/dept/main/index.do?DP_CODE=DM&MENU_ID=001001|https://www.ulsanjoongang.co.kr/content/04diagnosis/08_0304.php,0,0.0,2026-03-23T02:26:34.808892
+2,고혈압이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31322|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=135|https://gwhospital.co.kr/board/bbs_view.php?idx=1196&&bbs=health|https://www.drh.co.kr/new/front/index.php?page=10&g_page=community&m_page=community04&bb_code=608k0100pka86cc&view=read&wd=7|https://ko.wikipedia.org/wiki/%EA%B3%A0%ED%98%88%EC%95%95|https://hqcenter.snu.ac.kr/archives/jiphyunjeon/%EA%B3%A0%ED%98%88%EC%95%95|https://www.cnuh.co.kr/rcc/sub03_03.do|https://m.blog.naver.com/PostView.naver?blogId=ecmcism&logNo=70175541872|https://namu.wiki/w/%EA%B3%A0%ED%98%88%EC%95%95|https://www.bdbonim.co.kr/blank-23,0,0.0,2026-03-23T02:27:07.618115
+3,갑상선이란 무엇인가?,정의형,False,,,https://healthcare.cmcseoul.or.kr/bbs/view.do?idx=138|http://samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=1027&DP_CODE=CIC&MENU_ID=004027015&ds_code=D0004114|https://www.amc.seoul.kr/asan/healthinfo/body/bodyDetail.do?bodyId=3|https://blog.naver.com/thyroidx/222780718406|http://www.cnubh.com/health/medicine/info.cs?act=view&infoId=601&searchKeyword=&searchCondition=&pageIndex=1|https://www.msdmanuals.com/ko/home/%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%B3%B4-%ED%98%B8%EB%A5%B4%EB%AA%AC-%EB%B0%8F-%EB%8C%80%EC%82%AC-%EC%9E%A5%EC%95%A0/%EA%B0%91%EC%83%81%EC%84%A0-%EC%9E%A5%EC%95%A0/%EA%B0%91%EC%83%81%EC%84%A0-%EA%B0%9C%EC%9A%94|http://www.hangun.com/common/page/m25/m2518.ps1?v=3|https://www.snuh.org/health/myDoctor/view.do?seq_no=15|https://wellsu.co.kr/%EA%B0%91%EC%83%81%EC%84%A0%ED%81%B4%EB%A6%AC%EB%8B%89/%EA%B0%91%EC%83%81%EC%84%A0%EC%9D%B4%EB%9E%80/,0,0.0,2026-03-23T02:27:37.290922
+4,대사증후군이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32084|https://seoul.eumc.ac.kr/health/nutrition/view.do?bbs_no=21032|https://www.ydp.go.kr/health/contents.do?key=3584|https://blog.naver.com/mykbsmc2780/222257469089)|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000261|https://health.gangnam.go.kr/web/business/promotion/sub02.do|https://namu.wiki/w/%EB%8C%80%EC%82%AC%EC%A6%9D%ED%9B%84%EA%B5%B0|https://www.ksmbs.or.kr/content/general/02.php|http://www.samsunghospital.com/m/healthInfo/content/contenView.do?CONT_SRC=HOMEPAGE&CONT_SRC_ID=29119&CONT_CLS_CD=001021002006&CONT_ID=4303,0,0.0,2026-03-23T02:28:09.116558
+5,공황장애란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31583|https://www.ncmh.go.kr/ncmh/board/boardView.do;jsessionid=7poui8ugIxs5kkrcvnoxFvxa8smOJwF870jt8I4q9PQ0mOovlQzqQouEi8XC8bM4.mohwwas2_servlet_engine1?no=5324&fno=39&bn=newsView&menu_cd=02_06_01&bno=&pageIndex=1&search_item=&search_content=|https://www.stcarollo.or.kr/0401/6241|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000344|https://www.ncmh.go.kr/ncmh/board/boardView.do;jsessionid=PVSyTo4xSmvh358neCrhOdAPxQ9kC2vYkGVCOUHFmU5dUU2GvZjHZ8LYQNzrIaDF.mohwwas1_servlet_engine1?no=75&fno=41&bn=newsView&menu_cd=02_06_02_01&bno=&pageIndex=&search_item=&search_content=|https://www.msdmanuals.com/ko/home/%EC%A0%95%EC%8B%A0-%EA%B1%B4%EA%B0%95-%EC%9E%A5%EC%95%A0/%EB%B6%88%EC%95%88-%EB%B0%8F-%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4-%EC%9A%94%EC%9D%B8-%EA%B4%80%EB%A0%A8-%EC%9E%A5%EC%95%A0/%EA%B3%B5%ED%99%A9-%EB%B0%9C%EC%9E%91%EA%B3%BC-%EA%B3%B5%ED%99%A9-%EC%9E%A5%EC%95%A0|https://www.najumh.go.kr/html/content.do?depth=fc&menu_cd=02_03_00_01|https://uemc.ac.kr/clinic/clinic_pg01_01_08.jsp?str_page=4&dept=ABNAAA&board_sequence=1160&board_code=BOARD_98|https://blog.naver.com/mykbsmc2780/223416921649|https://www.schmc.ac.kr/bucheon/selectBbsNttView.do?key=1006&bbsNo=203&nttNo=144568&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=|https://www.ish.or.kr/main/contents.do?proc_type=view&a_num=59554013&b_num=6185,0,0.0,2026-03-23T02:28:32.667794
+6,우울증이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31581|http://www.cnuhh.com/health/medicine/info.cs?act=view&infoId=823|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000353|https://www.jesushospital.com/post/3425|https://www.schmc.ac.kr/bucheon/selectBbsNttView.do?key=1006&bbsNo=203&nttNo=144570&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=|https://studlife.inha.ac.kr/studlife/10453/subview.do|https://www.happymind-tb.or.kr/index.php?gt=inform/inform02_3|https://namu.wiki/w/%EC%9A%B0%EC%9A%B8%EC%9E%A5%EC%95%A0|http://www.samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=406&DP_CODE=DEP&MENU_ID=004026&ds_code=D0001673|https://counsel.konkuk.ac.kr/counsel/15149/subview.do,0,0.0,2026-03-23T02:29:02.445894
+7,조울증이란 무엇인가?,정의형,False,관련 링크,,https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000357|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31580|https://www.ncmh.go.kr/ncmh/board/boardView.do;jsessionid=j6ZkS57LOtDKhvfvKRSt7tdt7RFLWYqBXPmsZUkmF2lzr4HStZ2m2EC5apa4KDcN.mohwwas2_servlet_engine1?no=128&fno=41&bn=newsView&menu_cd=02_06_02_01&bno=&pageIndex=&search_item=&search_content=|https://namu.wiki/w/%EC%96%91%EA%B7%B9%EC%84%B1%20%EC%9E%A5%EC%95%A0|https://www.gnmhc.or.kr/sub03/sub01_05.php|https://dmhc.co.kr/health/manic|http://www.psychiatricnews.net/news/articleView.html?idxno=18288|https://www.shsmhc.or.kr/sub.php?menukey=47|https://www.gangnam.go.kr/office/smilegn/contents/smilegn_disease3/1/view.do?mid=smilegn_disease3|https://www.youthdgmhc.or.kr/sub.php?menukey=21,0,0.0,2026-03-23T02:29:31.672269
+8,ADHD란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=33888|https://dmhc.co.kr/health/adhd|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000358|https://namu.wiki/w/ADHD|https://www.msdmanuals.com/ko/home/%EC%95%84%EB%8F%99%EC%9D%98-%EA%B1%B4%EA%B0%95-%EB%AC%B8%EC%A0%9C/%ED%95%99%EC%8A%B5%EA%B3%BC-%EB%B0%9C%EB%8B%AC-%EC%9E%A5%EC%95%A0/%EC%A3%BC%EC%9D%98%EB%A0%A5-%EA%B2%B0%ED%95%8D-%EA%B3%BC%EC%9E%89%ED%96%89%EB%8F%99-%EC%9E%A5%EC%95%A0-adhd|https://www.brainfitness.org/adhd/|https://www.happymind-tb.or.kr/index.php?gt=inform/inform01|https://www.kacap.or.kr/m/public/public01.php|http://www.bsm.or.kr/webzine/2018/12/sub/01.asp,0,0.0,2026-03-23T02:29:55.745274
+9,자폐스펙트럼이란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31896|https://www.cns.or.kr/bbs/disease/list?category=C|https://ko.wikipedia.org/wiki/%EC%9E%90%ED%8F%90_%EC%8A%A4%ED%8E%99%ED%8A%B8%EB%9F%BC|https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=14|http://www.najumh.go.kr/html/content.do?depth=fc&menu_cd=02_05_00_01|https://www.khna.or.kr/homecare/12_child/rearing09.php|https://blog.naver.com/happy_snubh/223092219774|https://namu.wiki/w/%EC%9E%90%ED%8F%90%EC%84%B1%20%EC%9E%A5%EC%95%A0|https://www.snubh.org/service/info/com/view.do?BNO=382&Board_ID=B004&RNUM=3,0,0.0,2026-03-23T02:30:23.877642
+10,치매란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31575|https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=854&ccfNo=1&cciNo=1&cnpClsNo=1|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AB000003|https://new.neuro.or.kr/public/?sn=2&sn2=2|https://www.ncmh.go.kr/ncmh/board/boardView.do;jsessionid=wbbL6HzWp4EC939i1Y1hsJYubKAjq0YuTmLcQU8crOIndb5ytcwGmRaykL4v9I14.mohwwas1_servlet_engine1?no=79&fno=41&bn=newsView&menu_cd=02_06_02_01&bno=&pageIndex=&search_item=&search_content=|https://www.cnubh.com/cnuh/health/disease.cs;WEB_JSESSIONID=ACE3E77CEDFB155150D442E4EEC91040?act=view&infoId=279&searchKeyword=&searchCondition=&pageIndex=37|https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=22|https://www.cnudh.co.kr/cnuh/health/disease.cs?act=view&infoId=279&searchKeyword=&searchCondition=&pageIndex=39|https://ko.wikipedia.org/wiki/%EC%B9%98%EB%A7%A4|http://www.bonebarun.co.kr/news/?bmode=view&idx=170428841,0,0.0,2026-03-23T02:30:49.037641
+11,파킨슨병이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31983|https://www.snumdc.org/movement-disorders/parkinson-disease/introduction/|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5809|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000127|http://www.samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=56&DP_CODE=CIC&MENU_ID=004027015&ds_code=D0003410|https://namu.wiki/w/%ED%8C%8C%ED%82%A8%EC%8A%A8%EB%B3%91|https://www.khna.or.kr/homecare/04_nerve/parkinson01.php|https://www.msdmanuals.com/ko/home/%EB%87%8C-%EC%B2%99%EC%88%98-%EC%8B%A0%EA%B2%BD-%EC%9E%A5%EC%95%A0/%EC%9A%B4%EB%8F%99-%EC%9E%A5%EC%95%A0/%ED%8C%8C%ED%82%A8%EC%8A%A8%EB%B3%91-pd|https://blog.naver.com/happydrh/223623651211,0,0.0,2026-03-23T02:32:20.592905
+12,루푸스란 무엇인가?,정의형,False,,,https://www.snuh.org/health/nMedInfo/nView.do?medid=AA000051|https://www.niams.nih.gov/ko/health-topics/lupuseu|https://kids.britannica.com/students/article/Lupus/341215|https://namu.wiki/w/%EB%A3%A8%ED%91%B8%EC%8A%A4|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30802|https://blog.naver.com/totalspine1/223357354680?viewType=pc|https://www.kumc.or.kr/seasonPress/KUMM_vol24/kumm21.jsp|https://mjh.or.kr/rheumatism/health/class/lupus.do|https://rheumanet.co.kr/lupus|https://helpline.kdca.go.kr/cdchelp/ph/rdiz/selectRdizInfDetail.do?fixOpenType=PRINT&rdizCd=RA201710092,0,0.0,2026-03-23T02:32:49.295197
+13,크론병이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31397|https://www.kumc.or.kr/seasonPress/KUMM_vol16/kumm31.jsp|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000324|https://namu.wiki/w/%ED%81%AC%EB%A1%A0%EB%B3%91|https://www.colon.or.kr/colonlife_new/bbs/index.kin?category_id=&page_id=&bbs_mode=view&f_wbcode=board_story_1&f_master_idx=43&f_template_type=list|https://www.msdmanuals.com/ko/home/%EC%86%8C%ED%99%94-%EC%9E%A5%EC%95%A0/%EC%97%BC%EC%A6%9D%EC%84%B1-%EC%9E%A5%EC%A7%88%ED%99%98-ibd/%ED%81%AC%EB%A1%A0%EB%B3%91|https://www.kasid.org/board/health-info/view/2200?gubun=|https://ko.wikipedia.org/wiki/%ED%81%AC%EB%A1%A0%EB%B3%91|http://www.metrohosp.com/sub05/healthguide_contents.php?idx=9100,0,0.0,2026-03-23T02:33:18.641544
+14,과민성대장증후군이란 무엇인가?,정의형,False,관련 링크,,https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000296|https://namu.wiki/w/%EA%B3%BC%EB%AF%BC%EC%84%B1%20%EB%8C%80%EC%9E%A5%20%EC%A6%9D%ED%9B%84%EA%B5%B0|https://mjh.or.kr/digestion/disease/index.do?proc_type=view&midx=95&prepage=%2Fdigestion%2Fdisease%2Findex.do|https://www.nkhospital.net/v3/board.php?code=50&bidx=1301|https://m.blog.naver.com/knumc2114/221781248929|https://www.msdmanuals.com/ko/home/%EC%86%8C%ED%99%94-%EC%9E%A5%EC%95%A0/%EA%B3%BC%EB%AF%BC%EC%84%B1-%EC%9E%A5%EC%A6%9D%ED%9B%84%EA%B5%B0-ibs/%EA%B3%BC%EB%AF%BC%EC%84%B1-%EC%9E%A5%EC%A6%9D%ED%9B%84%EA%B5%B0-ibs|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5250|https://gs.severance.healthcare/gs/doctor/board_disease.do?mode=view&articleNo=123886&title=%EA%B3%BC%EB%AF%BC%EC%84%B1+%EB%8C%80%EC%9E%A5+%EC%A6%9D%ED%9B%84%EA%B5%B0+%5BIrritable+bowel+syndrome%5D|https://www.emc.ac.kr/clinic/clinic_pg01_01_08.jsp?str_page=2&dept=ABPAAA&board_sequence=1530&board_code=BOARD_99,0,0.0,2026-03-23T02:33:48.515530
+15,역류성식도염이란 무엇인가?,정의형,False,관련 링크,,http://www.samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=256&DP_CODE=CIC&MENU_ID=004027015&ds_code=D0001703|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=83|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31526|https://www.e-hyemin.co.kr/html/?pmode=bbsdat&spag=spag00001&smode=view&seq=671|https://blog.naver.com/mohw2016/223306669104|https://namu.wiki/w/%EC%97%AD%EB%A5%98%EC%84%B1%20%EC%8B%9D%EB%8F%84%EC%97%BC|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000599|https://jyhospital.com/%EC%97%AD%EB%A5%98%EC%84%B1-%EC%8B%9D%EB%8F%84%EC%97%BC-reflux-esophagitis/|https://g.newyjh.com/disease/disease_info01.php,0,0.0,2026-03-23T02:34:19.649146
+16,골다공증이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31611|https://www.niams.nih.gov/ko/health-topics/osteoporosis|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5833|https://www.koreanosteoporosis.or.kr/general/sub01.html|https://www.nongmin.com/article/20210709341373|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=133&search=&curPage=2&keyword=|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000259|https://www.koa.or.kr/general/info/?p=index_17_1&dep1=11&dep2=1|https://m.blog.naver.com/knumc2114/222976653041|http://www.samsunghospital.com/dept/medical/dietarySub01.do?content_id=610&DP_CODE=DD2&MENU_ID=002052&ds_code=D0000275,0,0.0,2026-03-23T02:34:47.370022
+17,류마티스관절염이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30822|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000052|https://mjh.or.kr/rheumatism/health/class/rheumatoid-arthritis01.do|https://www.doctorsnews.co.kr/news/articleView.html?idxno=75372&sc_word=8%&sc_word2=|http://xn--289ako46k89ibxcyuwcsd.com/index.php?idx=c65041d04312d9/c65041d36312f7|https://namu.wiki/w/%EB%A5%98%EB%A7%88%ED%8B%B0%EC%8A%A4%20%EA%B4%80%EC%A0%88%EC%97%BC|https://www.snubh.org/dh/main/index.do?DP_CD=IMJ&MENU_ID=004|https://blog.naver.com/rheuminfo/221997164762|https://www.niams.nih.gov/ko/health-topics/lyumatiseu-gwanjeolyeom|https://tophospital.co.kr/m/health_info/health-plus.html?bmain=view&uid=9|http://www.samsunghospital.com/m/healthInfo/content/contenView.do?CONT_SRC_ID=33875&CONT_SRC=HOMEPAGE&CONT_ID=6708&CONT_CLS_CD=001020001005|https://severance.healthcare/health/encyclopedia/disease/disease.do?mode=view&articleNo=67064&title=%EB%A5%98%EB%A7%88%ED%8B%B0%EC%8A%A4%EA%B4%80%EC%A0%88%EC%97%BC+%5BRheumatoid+arthritis%5D,0,0.0,2026-03-23T02:35:12.097523
+18,아토피피부염이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31519|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000394|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6582|https://www.atopy-inside.co.kr/what-is-atopic-dermatitis|https://health.dobong.go.kr/Contents.asp?code=10008254|https://www.niams.nih.gov/ko/health-topics/atopi-pibuyeomi|https://namu.wiki/w/%EC%95%84%ED%86%A0%ED%94%BC%EC%84%B1%20%ED%94%BC%EB%B6%80%EC%97%BC|https://www.msdmanuals.com/ko/home/%ED%94%BC%EB%B6%80-%EC%A7%88%ED%99%98/%EA%B0%80%EB%A0%A4%EC%9B%80%EC%A6%9D-%EB%B0%8F-%ED%94%BC%EB%B6%80%EC%97%BC/%EC%95%84%ED%86%A0%ED%94%BC-%ED%94%BC%EB%B6%80%EC%97%BC-%EC%8A%B5%EC%A7%84|https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%A0%ED%94%BC|https://www.jesushospital.com/post/3340,0,0.0,2026-03-23T02:35:48.980350
+19,건선이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31548|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000201|https://www.msdmanuals.com/ko/home/%ED%94%BC%EB%B6%80-%EC%A7%88%ED%99%98/%EA%B1%B4%EC%84%A0-%EB%B0%8F-%EC%9D%B8%EC%84%A4%EC%84%B1-%EC%9E%A5%EC%95%A0/%EA%B1%B4%EC%84%A0|https://www.schmc.ac.kr/bucheon/selectBbsNttView.do?key=1006&bbsNo=203&nttNo=144492&searchCtgry=&searchCnd=ALL&searchKrwd=&pageIndex=1&integrDeptCode=|https://www.snuh.org/board/B003/view.do?viewType=true&bbs_no=6490|https://health.severance.healthcare/health/encyclopedia/disease/disease.do?mode=view&articleNo=66951&title=%EA%B1%B4%EC%84%A0+%5BPsoriasis%5D|https://www.khmc.or.kr/busok/sense/sence34_18.htm|https://ch.cauhs.or.kr/home/conts/105001031005003.do,0,0.0,2026-03-23T02:36:23.164297
+20,백내장이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31147|http://www.samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=445&DP_CODE=OPH&MENU_ID=003018|https://www.msdmanuals.com/ko/home/%EB%88%88-%EC%9E%A5%EC%95%A0/%EB%B0%B1%EB%82%B4%EC%9E%A5/%EB%B0%B1%EB%82%B4%EC%9E%A5|http://eye100.co.kr/doc/cataract08.php|https://ko.wikipedia.org/wiki/%EB%B0%B1%EB%82%B4%EC%9E%A5|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000382|https://coopervision.co.kr/eye-health-and-vision/cataracts|https://www.snubh.org/dh/main/index.do?DP_CD=OT&MENU_ID=005|https://www.knuh.or.kr/hospitalinfo/hospitalinfo_03_01_view.asp?idx=22600|http://finevision.co.kr/main/cataract.php|https://central-eye.co.kr/%EB%B0%B1%EB%82%B4%EC%9E%A5%C2%B7%EB%85%B8%EC%95%88%EA%B5%90%EC%A0%95/%EB%B0%B1%EB%82%B4%EC%9E%A5%EC%9D%B4%EB%9E%80/|https://blog.naver.com/ilsanpaik100/224010422497?fromRss=true&trackingCode=rss,0,0.0,2026-03-23T02:36:52.894345
+21,녹내장이란 무엇인가?,정의형,False,관련 링크,,http://www.cnuhh.com/health/disease.cs?act=view&infoId=249&searchKeyword=&searchCondition=&pageIndex=9|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31152|https://blog.naver.com/mykbsmc2780/221849669664|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000376|https://www.msdmanuals.com/ko/home/%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%B3%B4-%EB%88%88-%EC%9E%A5%EC%95%A0/%EB%85%B9%EB%82%B4%EC%9E%A5/%EB%85%B9%EB%82%B4%EC%9E%A5|https://ko.wikipedia.org/wiki/%EB%85%B9%EB%82%B4%EC%9E%A5|http://www.samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=457&DP_CODE=OPH&MENU_ID=003018&ds_code=D0000627|https://coopervision.co.kr/eye-health-and-vision/glaucoma|https://www.knuh.or.kr/healthinfor/healthinfor_01_view.asp?bid=8&tid=&idx=22424&smode=&skey=,0,0.0,2026-03-23T02:37:58.419411
+22,황반변성이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31165|https://m.blog.naver.com/knumc2114/222961758099|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000392|https://healthcare.cmcseoul.or.kr/bbs/view.do?idx=19|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5269|http://www.sm-eye.com/sub.php?PID=0302|https://blog.naver.com/mykbsmc2780/223330898484|https://www.snuh.org/board/B003/view.do?bbs_no=5998|https://health.severance.healthcare/health/encyclopedia/disease/body_board.do?mode=view&articleNo=66648&title=%ED%99%A9%EB%B0%98%EB%B3%80%EC%84%B1+%5BMacular+degeneration%5D|https://www.snubh.org/service/info/com/view.do?BNO=389&Board_ID=B004&RNUM=1,0,0.0,2026-03-23T02:38:21.685974
+23,이석증이란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32429|https://www.korl.or.kr/webzine/149/sub3.html|https://health.severance.healthcare/health/encyclopedia/disease/body_board.do?mode=view&articleNo=119835&title=%EC%9D%B4%EC%84%9D%EC%A6%9D+%5BBenign+paroxysmal+positional+vertigo%5D|https://blog.naver.com/mohw2016/221567520470?viewType=pc|https://mjh.or.kr/main/health/class/otolithiasis.do|https://www.entent.co.kr/html/?pmode=otolithiasis|https://blog.naver.com/ecmcism/223834903334|https://news.amc.seoul.kr/news/con/detail.do?cntId=5420,0,0.0,2026-03-23T02:38:48.468946
+24,메니에르병이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32438|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000172|https://blog.naver.com/hyumc-pr/223793017963|https://www.snubh.org/dh/main/index.do?DP_CD=DZC&MENU_ID=005005|https://namu.wiki/w/%EB%A9%94%EB%8B%88%EC%97%90%EB%A5%B4%EB%B3%91|https://www.msdmanuals.com/ko/home/%EC%9D%B4%EB%B9%84%EC%9D%B8%ED%9B%84%EA%B3%BC-%EC%9E%A5%EC%95%A0/%EB%82%B4%EC%9D%B4-%EC%9E%A5%EC%95%A0/%EB%A9%94%EB%8B%88%EC%97%90%EB%A5%B4%EB%B3%91|https://www.snuh.org/%20health/nMedInfo/nView.do?category=DIS&medid=AA000172|https://bucheon.sejongh.co.kr/guide/disease-detail?wr_id=440&cate1=177&cate2=291&html_mode=text&Depth=2|https://www.korl.or.kr/info/sub01_12.php|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5964,0,0.0,2026-03-23T02:39:22.151415
+25,협심증이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32179|https://www.cnubh.com/cnuh/health/medicine/info.cs;WEB_JSESSIONID=CA980871D5B419019F936F6E1FF33D17?act=view&infoId=589&searchKeyword=&searchCondition=&pageIndex=1|https://namu.wiki/w/%ED%98%91%EC%8B%AC%EC%A6%9D|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6566|https://www.snuh.org/health/nMedInfo/nView.do?medid=AA000340|https://mjh.or.kr/cardio/health/class/angina02.do|https://www.khna.or.kr/homecare/03_cardi/heart05.php|https://blog.naver.com/happy_snubh/223783458940|https://mjh.or.kr/cardio/health/class/angina.do|https://www.msdmanuals.com/ko/home/%EC%8B%AC%EC%9E%A5-%EB%B0%8F-%ED%98%88%EA%B4%80-%EC%9E%A5%EC%95%A0/%EA%B4%80%EC%83%81%EB%8F%99%EB%A7%A5%EB%B3%91/%ED%98%91%EC%8B%AC%EC%A6%9D,0,0.0,2026-03-23T02:39:55.382698
+26,심근경색이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32111|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000335|https://blog.naver.com/chawomen/222158641235)|https://health.kdca.go.kr/healthinfo/biz/health/ccvdInfo/cvcdInfo/miInfoMain.do|https://ksmi.re.kr/learn/|https://ko.wikipedia.org/wiki/%EC%8B%AC%EA%B7%BC_%EA%B2%BD%EC%83%89|https://www.cnuh.com/health/disease.cs;WEB_JSESSIONID=B19780921395873FAF9BDC0C09255F52?act=view&infoId=556&searchKeyword=&searchCondition=&pageIndex=4|https://health.severance.healthcare/health/encyclopedia/disease/disease.do?mode=view&articleNo=66906&title=%EC%8B%AC%EA%B7%BC%EA%B2%BD%EC%83%89+%5BMyocardial+infarction%5D|https://www.gwhospital.co.kr/board/bbs_view.php?idx=2713&&bbs=column,0,0.0,2026-03-23T02:40:19.300832
+27,뇌졸중이란 무엇인가?,정의형,False,,,https://seoul.hyumc.com/seoul/healthInfo/reference.do?action=view&nttSeq=10991|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30518|https://www.yna.co.kr/view/AKR20250530057700530|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=125|https://khna.or.kr/homecare/04_nerve/stroke01.php|https://health.kdca.go.kr/healthinfo/biz/health/ccvdInfo/ccvcdInfo/cbvcacdInfoMain.do|http://yswith1.com/column/?bmode=view&idx=162755528|https://www.konesonline.or.kr/info/common-sense02|https://stroke.amc.seoul.kr/asan/depts/stroke/K/content.do?menuId=2182|https://m.blog.naver.com/junginomc/222065516663,0,0.0,2026-03-23T02:40:52.090781
+28,폐렴이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31631|https://www.snuh.org/health/nMedInfo/nView.do?medid=AA000044|https://healthcare.cmcseoul.or.kr/bbs/view.do?idx=57|https://sev.severance.healthcare/sev/doctor/board_disease.do?mode=view&articleNo=66932&title=%ED%8F%90%EB%A0%B4+%5BPneumonia%5D|https://www.lungkorea.org/general/disease/disease_05_e.php|https://www.msdmanuals.com/ko/home/%ED%8F%90-%EB%B0%8F-%EA%B8%B0%EB%8F%84-%EC%9E%A5%EC%95%A0/%ED%8F%90%EB%A0%B4/%ED%8F%90%EB%A0%B4%EC%9D%98-%EA%B0%9C%EC%9A%94|https://namu.wiki/w/%ED%8F%90%EB%A0%B4|https://www.snubh.org/dh/main/index.do?DP_CD=IMR&MENU_ID=004008|https://www.lungkorea.org/general/disease/disease_05_a.php|https://blog.naver.com/hyumc-pr/223773591527,0,0.0,2026-03-23T02:41:23.787891
+29,천식이란 무엇인가?,정의형,False,관련 링크,,https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000398|https://www.cnuhh.com/health/medicine/info.cs;WEB_JSESSIONID=C3E083F7FD279533A05802E53726A50D?act=view&infoId=824&searchKeyword=&searchCondition=&pageIndex=3|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31811|https://mjh.or.kr/main/health/class/asthma.do|https://www.msdmanuals.com/ko/home/%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%B3%B4-%ED%8F%90-%EB%B0%8F-%EA%B8%B0%EB%8F%84-%EC%9E%A5%EC%95%A0/%EC%B2%9C%EC%8B%9D/%EC%B2%9C%EC%8B%9D|https://www.snubh.org/dh/main/index.do?DP_CD=IMA&MENU_ID=004|https://www.ehtis.or.kr/cmn/sym/mnu/mpm/111031103/htmlCnView.do|https://www.schmc.ac.kr/bucheon/selectBbsNttView.do?key=1006&bbsNo=203&nttNo=144600&searchCtgry=&searchCnd=ALL&searchKrwd=&pageIndex=1&integrDeptCode=|https://khna.or.kr/homecare/02_respi/rd08.php|https://www.kuh.ac.kr/health/encyclo/encycloView.do?seq=106,0,0.0,2026-03-23T02:41:47.638929
+30,COPD란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31528|https://www.snubh.org/dh/main/index.do?DP_CD=IMR&MENU_ID=004005|https://www.lungkorea.org/general/disease/disease_01_a.php|https://www.kuh.ac.kr/medical/dept/centerIntro.do?dept_cd=100031|https://www.campus.sanofi/kr/disease-information/disease-cause-and-management/ar/What-is-COPD|https://www.msdmanuals.com/ko/home/%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%B3%B4-%ED%8F%90-%EB%B0%8F-%EA%B8%B0%EB%8F%84-%EC%9E%A5%EC%95%A0/%EB%A7%8C%EC%84%B1-%ED%8F%90%EC%87%84%EC%84%B1-%ED%8F%90%EC%A7%88%ED%99%98-copd/%EB%A7%8C%EC%84%B1-%ED%8F%90%EC%87%84%EC%84%B1-%ED%8F%90%EC%A7%88%ED%99%98-copd|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000409&utm_source=chatgpt.com|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6536|https://en.wikipedia.org/wiki/Chronic_obstructive_pulmonary_disease|https://sev.severance.healthcare/sev/doctor/board_disease.do?mode=view&articleNo=67059&title=%EB%A7%8C%EC%84%B1+%ED%8F%90%EC%87%84%EC%84%B1+%ED%8F%90%EC%A7%88%ED%99%98+%5BChronic+obstructive+pulmonary+disease+%28COPD%29%5D,0,0.0,2026-03-23T02:42:12.207841
+31,신부전이란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31798|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=92|https://www.schmc.ac.kr/bucheon/selectBbsNttView.do?key=1006&bbsNo=203&nttNo=144521&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=|https://www.msdmanuals.com/ko/home/%EC%8B%A0%EC%9E%A5-%EB%B0%8F-%EC%9A%94%EB%A1%9C-%EC%A7%88%ED%99%98/%EC%8B%A0%EB%B6%80%EC%A0%84/%EC%8B%A0%EB%B6%80%EC%A0%84-%EA%B0%9C%EC%9A%94|https://namu.wiki/w/%EC%8B%A0%EB%B6%80%EC%A0%84|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000364|https://www.cnubh.com/cnuh/health/disease.cs;WEB_JSESSIONID=A40E036EB6B0B855EB1B3F9BBE5C21F4?act=view&infoId=353&searchKeyword=&searchCondition=&pageIndex=25|https://m.blog.naver.com/chagroup/222715541574|https://khna.or.kr/homecare/08_urino/kidney06.php|https://www.apollohospitals.com/ko/diseases-and-conditions/the-function-and-importance-of-kidneys-what-happens-when-there-is-a-kidney-failure,0,0.0,2026-03-23T02:43:30.674957
+32,간경변이란 무엇인가?,정의형,False,,,https://liverfoundation.org/ko/%EA%B0%84-%EC%A7%88%ED%99%98/%EC%9E%AC%ED%96%A5%EA%B5%B0%EC%9D%B8-%EC%A0%95%EB%B3%B4-%EC%84%BC%ED%84%B0/%EA%B0%84%EA%B2%BD%EB%B3%80%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/|https://liverfoundation.org/ko/%EA%B0%84-%EC%A7%88%ED%99%98/%EA%B0%84-%EC%A7%88%ED%99%98%EC%9D%98-%ED%95%A9%EB%B3%91%EC%A6%9D/%EA%B2%BD%ED%99%94%EC%A6%9D/|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30480|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000293|https://www.kasl.org/general/disease/disease.php?ca=7|http://hepb.org.au/korean/liver-health/liver-cirrhosis/|https://namu.wiki/w/%EA%B0%84%EA%B2%BD%EB%B3%80|https://www.msdmanuals.com/ko/home/%EA%B8%B0%EB%B3%B8-%EC%A0%95%EB%B3%B4-%EA%B0%84-%EB%B0%8F-%EB%8B%B4%EB%82%AD-%EC%9E%A5%EC%95%A0/%EA%B0%84-%EC%84%AC%EC%9C%A0%EC%A6%9D-%EB%B0%8F-%EA%B0%84%EA%B2%BD%EB%B3%80%EC%A6%9D/%EA%B0%84%EA%B2%BD%EB%B3%80%EC%A6%9D|https://tophospital.co.kr/m/health_info/column.html?bmain=view&uid=27,0,0.0,2026-03-23T02:43:58.262648
+33,지방간이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31685|https://www.msdmanuals.com/ko/home/news/editorial/2024/05/02/13/43/what-is-fatty-liver|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000321|https://m.blog.naver.com/jsd7616/221890245848|https://www.nhis.or.kr/magazin/176/html/sub5.html|https://namu.wiki/w/%EC%A7%80%EB%B0%A9%EA%B0%84|https://healthcare.cmcseoul.or.kr/bbs/view.do?idx=68&engWord=&curPage=8&keyword=&word2=&searchFields=&word3=&word=&type=A|https://severance.healthcare/health/encyclopedia/disease/body_board.do?mode=view&articleNo=66948&article.offset=0&articleLimit=12|https://gwhospital.co.kr/board/bbs_view.php?idx=1710&&bbs=health,0,0.0,2026-03-23T02:44:23.646554
+34,담석증이란 무엇인가?,정의형,False,,,https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000301|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30478|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=117&keyword=&curPage=3|https://blog.naver.com/mykbsmc2780/222570694146|http://www.seoulhangclinic.com/sub4/detail.html?tc_cate=C&tc_idx=26|http://www.samsunghospital.com/m/healthInfo/content/contenView.do?CONT_SRC_ID=33801&CONT_SRC=HOMEPAGE&CONT_ID=6413&CONT_CLS_CD=001021003005|https://www.schmc.ac.kr/bucheon/selectBbsNttView.do?key=1006&bbsNo=203&nttNo=144507&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=1&integrDeptCode=|https://www.damsoyu.com/m/pages/clinic/damsuk/intro1.php|https://mdon.co.kr/news/article.html?no=34407,0,0.0,2026-03-23T02:44:51.908216
+35,요로결석이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32209|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000067|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=81|http://samsunghospital.com/dept/medical/dietarySub01.do?content_id=631&DP_CODE=DD2&MENU_ID=002&ds_code=D0001653|https://namu.wiki/w/%EC%9A%94%EB%A1%9C%EA%B2%B0%EC%84%9D|https://mokdong.eumc.ac.kr/hstory/nutrition/view.do?bbs_no=22497|https://www.snubh.org/service/info/com/view.do?BNO=54&Board_ID=B005|https://www.smgysh.co.kr/news/health.php?code=health&page=1&bbsData=bm89MTI=%7C%7C&mode=view&12|https://tophospital.co.kr/m/health_info/column.html?bmain=view&uid=5,0,0.0,2026-03-23T02:45:24.049311
+36,전립선비대증이란 무엇인가?,정의형,False,,,http://www.samsunghospital.com/dept/medical/diseaseSub03View.do?content_id=640&DP_CODE=URO&MENU_ID=003010&ds_code=D0002071|http://www.cnuhh.com/health/medicine/info.cs?act=view&infoId=828|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30607|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000068|https://mjh.or.kr/main/health/class/prostatic-hypertrophy.do|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=3193|https://www.snubh.org/dh/main/index.do?DP_CD=UR&MENU_ID=004008|https://www.cnuh.com/board/B0146.cs?act=read&articleId=23612&searchKeyword=&categoryId=0&searchCondition=&searchEndDt=&m=&searchStartDt=&pageIndex=1&pageUnit=0|http://www.nhis.or.kr/nbinfo/wbhfaa06200m29.do?mode=view&articleNo=11000113&title=%EC%A0%84%EB%A6%BD%EC%84%A0%EB%B9%84%EB%8C%80%EC%A6%9D%28prostatic+hypertrophy%29,0,0.0,2026-03-23T02:45:56.299128
+37,자궁근종이란 무엇인가?,정의형,False,관련 링크,,https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6190|https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31822|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=72|https://www.snuh.org/health/nMedInfo/nView.do?medid=AA000283|https://www.nhis.or.kr/magazin/mobile/201512/c02.html|http://www.eunhospital.co.kr/document/female_1_1|https://mjh.or.kr/robotic_surgery/health/class/myoma04.do|https://blog.naver.com/ecmcism/223834901925|https://www.schmc.ac.kr/seoul/selectBbsNttView.do?key=358&bbsNo=221&nttNo=249501&searchCtgry=&searchCnd=all&searchKrwd=&pageIndex=2,0,0.0,2026-03-23T02:46:30.056132
+38,자궁내막증이란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31828|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000284|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6283|https://www.msdmanuals.com/ko/home/%EC%97%AC%EC%84%B1-%EA%B1%B4%EA%B0%95-%EB%AC%B8%EC%A0%9C/%EC%9E%90%EA%B6%81%EB%82%B4%EB%A7%89%EC%A6%9D/%EC%9E%90%EA%B6%81%EB%82%B4%EB%A7%89%EC%A6%9D|https://gs.severance.healthcare/gs/doctor/board_disease.do?mode=view&articleNo=66968&title=%EC%9E%90%EA%B6%81%EB%82%B4%EB%A7%89%EC%A6%9D+%5BEndometriosis%5D|https://ilsanivf.chamc.co.kr/clinic/repetic.cha|https://blog.naver.com/happydrh/223953742592|http://www.cnhospital.co.kr/index.php?idx=c5dc15af367beb/c5dc15b6967c2e|https://www.khna.or.kr/homecare/10_woman/wd02_03.php,0,0.0,2026-03-23T02:47:01.593769
+39,다낭성난소증후군이란 무엇인가?,정의형,False,관련 링크,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31833|https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5971|https://www.cmcseoul.or.kr/healthcare/bbs/view.do?idx=122&keyword=&curPage=3|https://namu.wiki/w/%EB%8B%A4%EB%82%AD%EC%84%B1%20%EB%82%9C%EC%86%8C%20%EC%A6%9D%ED%9B%84%EA%B5%B0|https://www.msdmanuals.com/ko/home/%EC%97%AC%EC%84%B1-%EA%B1%B4%EA%B0%95-%EB%AC%B8%EC%A0%9C/%EC%9B%94%EA%B2%BD-%EC%9E%A5%EC%95%A0-%EB%B0%8F-%EB%B9%84%EC%A0%95%EC%83%81-%EC%9E%90%EA%B6%81-%EC%B6%9C%ED%98%88/%EB%8B%A4%EB%82%AD%EC%84%B1-%EB%82%9C%EC%86%8C-%EC%A6%9D%ED%9B%84%EA%B5%B0-pcos|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000273|https://gangnam.chamc.co.kr/treatment/list/Polycystic-ovary/introduction.cha|https://blog.naver.com/happydrh/223611386146|https://www.tlcfertility.com/kr/blog/pcos|https://www.nhis.or.kr/magazin/145/html/sub3.html,0,0.0,2026-03-23T02:47:25.663686
+40,갱년기증후군이란 무엇인가?,정의형,False,,,https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31937|https://www.snubh.org/service/info/com/view.do?BNO=154&Board_ID=B003|https://m.blog.naver.com/molaid/221313408895|https://www.nrc.go.kr/portal/html/content.do?depth=dw&menu_cd=05_01_02|https://m.jaseng.co.kr/clinic/climacterium01.asp|http://somobgy.com/sub/r30/s3080.php|https://www.nutrione.co.kr/mgz/dtlMgz/126?srsltid=AfmBOopeNnfQ83KHpqTqMxEbtpGKb3Q636alh3zondM6ArVTxIDZv-ak|http://www.xn--2e0bn3zooa233ara434t.com/sh_page/page67.php|https://www.snuh.org/health/nMedInfo/nView.do?category=DIS&medid=AA000290|http://www.seoulsgju.com/urology4_1/|https://www.medifonews.com/news/article.html?no=134593,0,0.0,2026-03-23T02:47:51.432311
+41,블록체인이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:49:21.871140
+42,NFT란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:49:48.408502
+43,메타버스란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:50:12.639091
+44,양자컴퓨터란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:50:36.608960
+45,딥러닝이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:50:58.196374
+46,머신러닝이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:51:27.825543
+47,생성형AI란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:51:58.172568
+48,클라우드컴퓨팅이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:52:19.999951
+49,엣지컴퓨팅이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:52:50.268204
+50,IoT란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:53:19.437910
+51,5G란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:54:58.518068
+52,반도체란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:55:32.954839
+53,ESG란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:56:06.229853
+54,탄소중립이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:56:27.217095
+55,재생에너지란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:56:58.962585
+56,수소경제란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:57:25.965260
+57,인플레이션이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:57:56.202470
+58,스태그플레이션이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:58:26.591185
+59,양적완화란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:58:54.695636
+60,기준금리란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T02:59:20.744552
+61,가계부채란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:00:33.617941
+62,부동산PF란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:01:07.066923
+63,전세사기란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:01:32.055753
+64,역전세란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:02:04.982383
+65,깡통전세란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:02:30.105612
+66,공매도란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:03:02.174328
+67,ETF란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:03:33.274170
+68,리츠란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:03:58.373282
+69,IRP란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:04:29.993337
+70,연금저축이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:04:55.657947
+71,ISA란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:06:05.714924
+72,신용점수란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:06:34.236584
+73,DSR이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:07:02.629771
+74,LTV란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:07:31.262416
+75,DTI란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:08:05.930432
+76,워라밸이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:08:32.882056
+77,번아웃증후군이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:09:01.212085
+78,MZ세대란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:09:29.098091
+79,N포세대란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:10:04.394242
+80,긱이코노미란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:10:30.876606
+81,플랫폼노동이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:11:58.965338
+82,제로웨이스트란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:12:28.716670
+83,비건이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:12:53.723879
+84,간헐적단식이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:13:17.880890
+85,케톤식이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:13:44.898365
+86,글루텐프리란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:14:17.331507
+87,저속노화란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:14:48.266419
+88,텔로미어란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:15:09.994717
+89,마이크로바이옴이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:15:38.279242
+90,유전자가위란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:16:09.168078
+91,줄기세포란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:17:38.198791
+92,면역항암제란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:18:06.077141
+93,CAR-T치료란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:18:32.056385
+94,mRNA백신이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:19:06.979516
+95,항생제내성이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:19:33.696364
+96,슈퍼박테리아란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:19:59.616095
+97,희귀질환이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:20:28.965985
+98,만성피로증후군이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:21:03.858444
+99,섬유근육통이란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:21:27.722641
+100,롱코비드란 무엇인가?,정의형,False,,,,0,0.0,2026-03-23T03:21:49.263527
+101,여권 갱신 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:23:07.404782
+102,운전면허 갱신 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:23:31.295475
+103,주민등록증 재발급 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:23:58.071047
+104,건강보험 피부양자 등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:24:29.052784
+105,국민연금 조회 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:24:50.046200
+106,실업급여 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:25:16.895954
+107,육아휴직 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:25:47.330166
+108,출산휴가 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:26:19.420236
+109,임대차계약 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:26:50.276068
+110,전입신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:27:17.273982
+111,확정일자 받는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:28:35.897673
+112,전세보증보험 가입 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:29:09.098891
+109,종합소득세 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:29:33.744585
+110,연말정산 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:29:57.895163
+111,부가가치세 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:30:25.833577
+112,증여세 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:30:57.661085
+113,상속세 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:31:30.931066
+114,취득세 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:32:00.287939
+115,재산세 납부 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:32:18.668834
+116,자동차세 납부 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:32:48.614471
+117,청약통장 만드는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:33:54.474623
+118,청약 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:34:20.457113
+119,특례보금자리론 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:34:48.394411
+120,디딤돌대출 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:35:13.053677
+121,버팀목전세자금 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:35:43.146980
+122,햇살론 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:36:09.092234
+123,소상공인 대출 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:36:38.654385
+124,정부지원금 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:37:09.946955
+125,청년내일저축계좌 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:37:37.381515
+126,근로장려금 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:38:02.267625
+127,자녀장려금 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:39:12.123857
+128,기초생활수급자 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:39:41.920694
+129,장애인등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:40:07.055662
+130,노인장기요양보험 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:40:36.596653
+131,요양원 입소 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:41:13.088158
+132,치매안심센터 이용 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:41:43.765418
+133,정신건강복지센터 이용 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:42:06.936964
+134,암검진 받는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:42:36.990094
+135,국가건강검진 예약 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:43:06.786683
+136,코로나 후유증 치료 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:43:36.443309
+137,대장내시경 준비 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:44:57.834720
+138,위내시경 준비 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:45:18.036223
+139,헌혈 하는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:45:47.943851
+140,장기기증 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:46:12.852573
+141,법인 설립 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:46:42.417411
+142,사업자등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:47:16.339403
+143,폐업신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:47:50.019645
+144,상표등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:48:20.470678
+145,특허 출원 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:48:50.572225
+146,저작권 등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:49:13.012984
+147,민사소송 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:51:00.987542
+148,내용증명 보내는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:51:30.832948
+149,고소장 쓰는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:51:55.248290
+150,이혼 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:52:24.050849
+151,유언장 쓰는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:52:52.910107
+152,후견인 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:53:24.938652
+153,파산신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:53:54.331221
+154,개인회생 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:54:25.253500
+155,신용불량자 해제 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:54:55.126804
+156,운전면허 취득 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:55:26.032652
+157,오토바이 면허 따는 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:56:28.619895
+158,자동차 보험 가입 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:56:57.534407
+159,자동차 등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:57:26.353219
+160,자동차 이전등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:57:51.060313
+161,해외직구 방법이 어떻게 돼?,방법형,False,,,,0,0.0,2026-03-23T03:58:23.822985
+162,관세 납부 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:58:54.019354
+163,비자 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:59:15.758304
+164,여행자보험 가입 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T03:59:40.800309
+165,국제운전면허증 발급 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:00:10.179829
+166,해외이사 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:00:34.954719
+167,영주권 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:02:18.103439
+168,귀화 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:02:44.926077
+169,병역 연기 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:03:07.220895
+170,예비군 훈련 연기 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:03:31.553622
+171,민방위 훈련 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:04:00.372631
+172,산재보험 신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:04:28.895793
+173,고용보험 가입 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:04:53.844209
+174,퇴직금 계산 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:05:22.683953
+175,퇴직연금 수령 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:05:44.203620
+176,주식 투자 시작 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:06:13.441721
+177,코인 거래 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:07:57.504048
+178,부동산 경매 참여 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:08:26.302932
+179,공매 참여 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:08:57.988990
+180,임금체불 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:09:25.502385
+181,부당해고 구제신청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:09:52.192007
+182,직장 내 괴롭힘 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:10:24.497713
+183,성희롱 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:10:59.241720
+184,개인정보 유출 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:11:23.258942
+185,보이스피싱 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:11:47.591507
+186,사기 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:12:15.167337
+187,명예훼손 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:13:42.848975
+188,스토킹 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:14:07.739136
+189,학교폭력 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:14:28.483455
+190,아동학대 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:14:56.942289
+191,노인학대 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:15:27.405638
+192,가정폭력 신고 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:15:49.844711
+193,소비자 분쟁 해결 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:16:28.120256
+194,환불 요청 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:17:00.638301
+195,제품 하자 배상 청구 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:17:26.069428
+196,교통사고 처리 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:17:50.932734
+197,보험금 청구 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:18:52.132502
+198,건물 누수 피해 보상 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:19:27.324056
+199,층간소음 해결 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:19:50.626590
+200,반려동물 등록 어떻게 해?,방법형,False,,,,0,0.0,2026-03-23T04:20:16.347148
+201,아이폰 vs 갤럭시 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:20:45.187696
+202,맥북 vs 윈도우 노트북 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:21:11.684484
+203,아이패드 vs 갤럭시탭 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:21:32.127307
+204,애플워치 vs 갤럭시워치 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:21:56.138154
+205,에어팟 vs 갤럭시버즈 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:22:23.856246
+206,넷플릭스 vs 디즈니플러스 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:22:49.326481
+207,쿠팡 vs 네이버쇼핑 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:24:20.214982
+208,카카오페이 vs 네이버페이 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:24:42.769888
+209,토스 vs 카카오뱅크 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:25:16.044263
+210,케이뱅크 vs 카카오뱅크 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:25:44.531339
+211,정기예금 vs 정기적금 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:26:08.662401
+212,주식 vs 펀드 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:26:34.108733
+213,ETF vs 펀드 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:27:03.980256
+214,국채 vs 회사채 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:27:32.933313
+215,전세 vs 월세 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:28:02.149803
+216,아파트 vs 오피스텔 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:28:35.069952
+217,분양권 vs 입주권 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:30:03.739457
+218,재건축 vs 재개발 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:30:36.878657
+219,국민연금 vs 개인연금 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:31:08.231925
+220,연금저축보험 vs 연금저축펀드 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:31:34.629083
+221,실손보험 vs 의료실비보험 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:32:06.725827
+222,종신보험 vs 정기보험 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:32:31.668489
+223,공립학교 vs 사립학교 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:33:01.675735
+224,수능 vs 내신 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:33:24.128294
+225,수시 vs 정시 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:33:50.829287
+226,학종 vs 교과전형 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:34:14.987252
+227,대학원 석사 vs 박사 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:35:29.300821
+228,정규직 vs 계약직 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:35:54.410646
+229,프리랜서 vs 직장인 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:36:24.533925
+230,개인사업자 vs 법인사업자 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:36:58.713684
+231,종합소득세 vs 근로소득세 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:37:19.625455
+232,부가세 vs 소득세 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:37:45.476190
+233,증여세 vs 상속세 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:38:12.972414
+234,민사소송 vs 형사소송 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:38:47.162771
+235,고소 vs 고발 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:39:13.763619
+236,조정 vs 중재 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:39:45.274252
+237,항소 vs 상고 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:41:09.410353
+238,한의원 vs 병원 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:41:39.326359
+239,내과 vs 가정의학과 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:42:11.577901
+240,정신건강의학과 vs 신경과 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:42:43.498409
+241,MRI vs CT 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:43:09.128637
+242,엑스레이 vs 초음파 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:43:38.197304
+243,제네릭 vs 오리지널 의약품 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:44:10.817664
+244,양약 vs 한약 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:44:39.080466
+245,유산소운동 vs 무산소운동 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:45:05.311083
+246,헬스 vs 필라테스 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:45:36.040828
+247,요가 vs 스트레칭 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:47:02.805239
+248,단백질 보충제 vs 음식 단백질 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:47:32.921211
+249,비타민C vs 비타민D 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:48:03.924166
+250,오메가3 vs 오메가6 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:48:29.024751
+251,유기농 vs 무농약 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:48:56.713343
+252,저탄고지 vs 저지방고탄 다이어트 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:49:30.587150
+253,간헐적단식 16:8 vs 5:2 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:49:57.600396
+254,채식 vs 비건 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:50:24.179158
+255,친환경 vs 재활용 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:50:57.899132
+256,전기차 vs 수소차 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:51:21.740357
+257,하이브리드 vs 전기차 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:52:34.323764
+258,태양광 vs 풍력 에너지 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:53:08.475835
+259,원자력 vs 화력발전 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:53:32.890908
+260,GPT vs 제미나이 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:54:00.556580
+261,클라우드 vs 온프레미스 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:54:25.538191
+262,파이썬 vs 자바 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:54:49.482077
+263,리눅스 vs 윈도우 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:55:14.138146
+264,리액트 vs 뷰 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:55:35.635398
+265,SQL vs NoSQL 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:55:59.362406
+266,유튜브 vs 틱톡 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:56:26.327580
+267,인스타그램 vs 스레드 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:57:49.650126
+268,카카오톡 vs 라인 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:58:20.881002
+269,배달의민족 vs 쿠팡이츠 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:58:51.719609
+270,에어비앤비 vs 호텔 차이점이 뭐야?,비교형,False,,,,0,0.0,2026-03-23T04:59:23.952966
+271,초등학생 입문용 노트북 추천해줘,추천형,False,,,,0,0.0,2026-03-23T04:59:45.540598
+272,대학생 노트북 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:00:14.432750
+273,영상편집용 노트북 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:00:40.802325
+274,게이밍 노트북 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:01:07.135900
+275,사무용 노트북 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:01:34.928961
+276,가성비 스마트폰 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:01:53.999708
+277,카메라 잘 나오는 스마트폰 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:03:20.546570
+278,배터리 오래가는 스마트폰 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:03:53.402953
+279,초등학생 태블릿 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:04:26.692734
+280,드로잉용 태블릿 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:04:49.773203
+281,입문자용 DSLR 카메라 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:05:20.503780
+282,여행용 미러리스 카메라 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:05:44.139999
+283,유튜버용 카메라 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:06:17.023821
+284,블랙박스 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:06:47.763628
+285,공기청정기 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:07:16.301731
+286,로봇청소기 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:07:52.690416
+287,식기세척기 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:08:58.710179
+288,에어프라이어 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:09:31.135254
+289,커피머신 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:09:56.350473
+290,전기밥솥 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:10:24.243607
+291,직장인 건강보험 추가가입 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:10:51.259998
+292,20대 첫 자동차보험 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:11:15.276383
+293,운전초보 차 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:11:35.987255
+294,전기차 입문용 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:12:00.575152
+295,SUV 패밀리카 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:12:25.659538
+296,서울 가볼만한 곳 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:12:49.487870
+297,부산 여행지 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:13:54.411544
+298,제주도 숨은 명소 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:14:21.618639
+299,강원도 겨울여행 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:14:59.892102
+300,일본 여행 추천 도시가 어디야?,추천형,False,,,,0,0.0,2026-03-23T05:15:27.297720
+301,대만 여행 추천 코스가 어떻게 돼?,추천형,False,,,,0,0.0,2026-03-23T05:15:52.168507
+302,베트남 여행지 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:16:21.100778
+303,유럽 한달살기 추천 도시가 어디야?,추천형,False,,,,0,0.0,2026-03-23T05:16:46.022914
+304,신혼여행지 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:17:12.504486
+305,혼자 여행하기 좋은 나라 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:17:45.540526
+306,초등학생 영어 학원 선택 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:18:16.288056
+307,중학생 수학 문제집 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:20:06.114336
+308,고등학생 국어 문제집 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:20:37.454920
+309,수능 영어 인강 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:21:00.491250
+310,토익 공부 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:21:32.505316
+311,자격증 공부 순서 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:21:58.160220
+312,직장인 재테크 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:22:27.193105
+313,사회초년생 저축 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:22:58.452660
+314,30대 노후 준비 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:23:27.752659
+315,소액 투자 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:24:01.662186
+316,헬스 초보 루틴 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:24:28.012577
+317,홈트레이닝 운동 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:26:16.378519
+318,다이어트 식단 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:26:40.781986
+319,근육 키우는 식단 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:27:17.024116
+320,건강 영양제 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:27:42.199562
+321,수면 개선 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:28:08.268296
+322,스트레스 해소 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:28:38.218998
+323,명상 앱 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:29:02.602224
+324,독서 습관 만드는 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:29:34.276826
+325,생산성 앱 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:30:00.065900
+326,재취업 준비 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:30:25.364988
+327,이직 시기 결정 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:31:55.887785
+328,면접 준비 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:32:23.444112
+329,포트폴리오 만드는 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:32:45.626066
+330,유튜브 채널 시작 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:33:10.072798
+331,블로그 수익화 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:33:31.855051
+332,스마트스토어 시작 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:33:56.456188
+333,부업 종류 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:34:24.306981
+334,재능마켓 활용 방법 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:34:48.619625
+335,반려견 종류 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:35:21.789797
+336,반려묘 종류 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:35:45.447958
+337,강아지 사료 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:37:26.080730
+338,고양이 모래 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:37:54.901595
+339,식물 키우기 쉬운 종류 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:38:25.742140
+340,인테리어 소품 추천해줘,추천형,False,,,,0,0.0,2026-03-23T05:38:57.176825
+341,최근 금리 인상 이유가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:39:27.941170
+342,한국 경제 침체 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:39:58.515624
+343,부동산 시장 전망이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:40:29.311750
+344,주식시장 하락 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:41:03.469015
+345,환율 상승 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:41:29.849716
+346,물가 상승 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:42:05.989261
+347,청년 실업률 높은 이유가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:43:48.436920
+348,저출산 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:44:23.872931
+349,고령화사회 문제점이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:44:53.339139
+350,연금개혁 논쟁 핵심이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:45:18.592851
+351,의대 정원 확대 논란 이유가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:45:44.226718
+352,간호법 논란 핵심이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:46:19.573908
+353,AI 일자리 대체 어떻게 돼?,시사형,False,,,,0,0.0,2026-03-23T05:46:49.175690
+354,ChatGPT 교육 활용 문제점이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:47:11.203192
+355,딥페이크 범죄 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:47:35.214476
+356,사이버보안 위협 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:48:06.562753
+357,개인정보 유출 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:50:02.458664
+358,반도체 패권 경쟁 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:50:31.906915
+359,미중 무역갈등 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:51:03.615959
+360,러시아 우크라이나 전쟁 영향이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:51:33.236495
+361,북한 핵 위협 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:51:54.063285
+362,한일 관계 최근 동향이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:52:20.980245
+363,한미동맹 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:52:49.751561
+364,기후변화 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:53:19.950078
+365,탄소세 도입 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:53:45.150026
+366,플라스틱 규제 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:54:14.532202
+367,전기차 화재 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:55:19.316744
+368,자율주행차 상용화 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:55:47.849479
+369,배달음식 과포장 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:56:20.970749
+370,배달플랫폼 수수료 논란이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:56:42.791308
+371,온라인 플랫폼 독과점 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:57:11.099569
+372,카카오 독점 논란 내용이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:57:38.017047
+373,네이버 알고리즘 조작 논란이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:58:07.485687
+374,유튜브 알고리즘 문제점이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:58:28.662169
+375,소셜미디어 청소년 유해성 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T05:59:00.279405
+376,게임 중독 논란 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T05:59:29.755776
+377,웹툰 불법복제 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:00:43.731582
+378,OTT 시장 경쟁 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:01:08.599558
+379,K팝 해외 영향력 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:01:35.850539
+380,한국 드라마 글로벌 성공 이유가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:02:00.329339
+381,워킹맘 육아 지원 정책 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:02:23.342381
+382,남성 육아휴직 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:02:59.886030
+383,학교 급식 논란 핵심이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:03:25.329586
+384,사교육비 증가 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:03:53.051492
+385,대입제도 개편 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:04:26.241510
+386,의무교육 연한 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:04:48.308710
+387,최저임금 인상 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:05:45.394489
+388,주 4일제 도입 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:06:14.615238
+389,재택근무 확산 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:06:40.893071
+390,긱워커 권리 보호 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:07:08.020559
+391,노동조합 파업 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:07:32.253749
+392,비정규직 처우 개선 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:07:54.686475
+393,중대재해처벌법 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:08:23.114247
+394,화물연대 파업 영향이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:08:49.734768
+395,의료파업 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:09:14.308756
+396,공공의료 강화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:09:52.493518
+397,건강보험 재정 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:10:52.085351
+398,요양병원 실태 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:11:20.593313
+399,돌봄공백 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:11:43.694007
+400,지방소멸 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:12:08.471538
+401,지방소멸 원인과 대책이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:12:39.996621
+402,수도권 집중 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:13:00.684890
+403,세종시 행정수도 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:13:35.545517
+404,균형발전 정책 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:13:58.105431
+405,지역화폐 효과가 있어?,시사형,False,,,,0,0.0,2026-03-23T06:14:26.190160
+406,소상공인 지원 정책 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:14:51.024444
+407,전통시장 살리기 방법이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:16:46.873479
+408,편의점 과다출점 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:17:12.432837
+409,프랜차이즈 갑질 논란이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:17:33.258167
+410,플랫폼 입점업체 수수료 논란이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:18:00.083001
+411,쿠팡 물류센터 노동환경 논란이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:18:32.898410
+412,택배기사 과로 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:19:03.977079
+413,음식배달 라이더 안전 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:19:37.773155
+414,대리운전 기사 처우 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:20:06.709520
+415,외국인 노동자 처우 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:20:41.943000
+416,이민 정책 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:21:13.969577
+417,다문화가정 지원 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:23:13.015002
+418,탈북민 정착 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:23:34.245740
+419,재외동포 지원 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:24:01.006047
+420,한국 인구절벽 전망이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:24:26.831881
+421,서울 아파트 가격 전망이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:24:52.226515
+422,전세제도 폐지 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:25:20.174551
+423,임대차3법 효과가 어때?,시사형,False,,,,0,0.0,2026-03-23T06:25:45.890704
+424,공시가격 현실화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:26:11.987565
+425,종합부동산세 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:26:39.956427
+426,재건축 규제 완화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:27:11.331671
+427,그린벨트 해제 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:29:02.801833
+428,신도시 개발 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:29:29.877553
+429,GTX 개통 효과가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:29:52.783980
+430,광역교통망 확충 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:30:25.756792
+431,서울 지하철 요금 인상 이유가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:30:57.138290
+432,대중교통 무료화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:31:29.902356
+433,자전거 도로 확충 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:31:59.284084
+434,전동킥보드 안전 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:32:20.650759
+435,음주운전 처벌 강화 효과가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:32:46.782883
+436,어린이보호구역 속도제한 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:33:17.091724
+437,학교 앞 불법주정차 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:34:15.225584
+438,층간소음 법적 기준이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:34:43.117039
+439,반려동물 등록제 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:35:09.819289
+440,유기동물 안락사 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:35:34.704526
+441,채식급식 도입 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:36:04.097041
+442,식품 첨가물 안전성 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:36:38.456010
+443,GMO 식품 안전성 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:37:03.114981
+444,건강기능식품 효과 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:37:29.107653
+445,의약품 가격 규제 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:37:54.854143
+446,바이오시밀러 허가 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:38:23.624341
+447,첨단재생의료 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:39:57.337806
+448,원격진료 허용 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:40:19.392510
+449,의료AI 도입 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:40:52.586335
+450,병원 빅데이터 활용 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:41:27.603096
+451,ChatGPT 교육 활용 어떻게 해?,시사형,False,,,,0,0.0,2026-03-23T06:41:55.259073
+452,메타버스 교육 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:42:18.967173
+453,디지털교과서 도입 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:42:51.732916
+454,코딩 교육 의무화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:43:22.661337
+455,AI 교사 대체 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:43:56.957348
+456,대학 무상교육 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:44:27.683940
+457,학자금 대출 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:46:22.195218
+458,청년 주거 지원 정책 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:46:48.343216
+459,청년 정신건강 위기 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:47:13.311851
+460,고독사 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:47:45.051095
+461,1인가구 증가 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:48:07.130935
+462,비혼율 증가 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:48:37.592198
+463,황혼이혼 증가 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:49:09.849705
+464,노인 빈곤 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:49:37.557114
+465,노인 일자리 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:50:07.671641
+466,시니어 창업 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:50:34.175642
+467,고령 운전자 사고 문제가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:51:41.497886
+468,초고령사회 준비 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:52:10.299195
+469,호스피스 완화의료 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:52:37.016231
+470,존엄사 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:53:00.633097
+471,낙태죄 폐지 이후 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:53:22.994921
+472,대리모 합법화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:53:49.702024
+473,동성결혼 합법화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:54:17.496310
+474,성별정정 절차 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:54:47.562561
+475,젠더갈등 원인이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:55:21.953435
+476,페미니즘 논쟁 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:55:46.827061
+477,남성혐오 여성혐오 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:56:45.749390
+478,직장 내 성차별 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:57:07.256567
+479,유리천장 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T06:57:41.833725
+480,여성 군복무 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:58:11.415203
+481,병역특례 폐지 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:58:38.684146
+482,모병제 도입 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:59:10.099625
+483,국방예산 증가 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T06:59:38.696350
+484,THAAD 배치 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:00:09.918285
+485,핵무장 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:00:39.974933
+486,한국 외교 전략 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T07:01:02.178865
+487,G7 가입 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:02:20.601131
+488,ODA 확대 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:02:45.480301
+489,WTO 분쟁 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T07:03:15.696661
+490,FTA 효과가 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:03:46.695448
+491,탄핵 제도 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:04:13.687545
+492,선거제도 개편 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:04:43.084378
+493,비례대표제 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:05:10.171983
+494,지방자치 강화 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:05:38.928421
+495,검찰 개혁 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:06:08.816826
+496,경찰 수사권 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:06:44.580676
+497,공수처 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:07:58.896765
+498,사법부 독립 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:08:28.044408
+499,언론 자유 현황이 어때?,시사형,False,,,,0,0.0,2026-03-23T07:08:49.405617
+500,가짜뉴스 규제 논쟁이 뭐야?,시사형,False,,,,0,0.0,2026-03-23T07:09:18.893722
